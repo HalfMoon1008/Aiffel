@@ -12,3 +12,43 @@ AI 발전에 고민 늘어나는 게임 인재...활용할까 밀려날까
 
 ### 원본기사 링크
 https://zdnet.co.kr/view/?no=20230616163429
+
+---
+
+### 리뷰어(push한 사람): 최철웅
+
+# Introducing Voicebox
+
+
+## The first generative AI model for speech to generalize across tasks with state-of-the-art performance
+
+
+### 기사내용 요약
+- VoiceBox
+  - 이미지 생성 모델처럼 음성 데이터를 생성할 수 있는 모델
+  - 다양한 작업 수행 가능
+    - Text To Speech
+      - 다양한 목소리로 생성 가능
+    - Style Transfer
+      - 원하는 목소리로 변환
+      - 다른 언어의 샘플도 사용 가능
+    - Audio Editing
+      - 음성 데이터의 특정 부분을 변환
+      - 이미지 생성 모델의 Inpaint 기능과 유사
+- 학습
+  - 기존 모델의 문제점
+    - 학습할 음성 데이터의 전처리
+    - 생성된 결과의 목소리가 단조롭고 Style이 고정됨
+  - 극복 방안
+    - Flow Matching Model 사용
+  - 학습 데이터
+    - 50,000시간의 음성 데이터와 대사집
+      - 공개된 오디오북
+    - 영어, 프랑스어, 스페인어, 독일어, 폴란드어, 포르투갈어
+- 성능
+  - 영어 뿐만 아니라 다양한 언어 지원
+  - word error rates와 Style Similarity에서 다른 모델들의 성능을 앞섬
+  - TTS 기능에서 다양한 목소리 지원
+
+### 원본기사 링크
+- [Meta AI Blog](https://ai.facebook.com/blog/voicebox-generative-ai-model-speech/)
